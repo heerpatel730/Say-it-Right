@@ -1,0 +1,188 @@
+/* 
+Hima Girishbhai Kansodariya  1001861845
+Heer Chirag Patel            1001965102
+Jay Ashok Patel              1001870971
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.regbody{
+	background: -webkit-linear-gradient(left, #324f64, #afaaaa);
+	padding: 0 10px;
+	
+}
+
+.regwrapper{
+	max-width: 600px;
+	width: 100%;
+	background: #fff;
+	margin: 20px auto;
+	padding: 30px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.regwrapper .title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: #6f7171;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.regwrapper .form{
+	width: 100%;
+}
+
+.regwrapper .form .input_field{
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.regwrapper .form .input_field label{
+	width: 200px;
+	color: #757575;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.regwrapper .form .input_field .input,
+.regwrapper .form .input_field .textarea{
+	width: 50%;
+	outline: 1px;
+	border: 3px solid #d5dbd9;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.regwrapper .form .input_field .textarea{
+	resize: none;
+	height: 125px;  
+}
+
+.regwrapper .form .input_field .custom_select{
+	/* position: relative; */
+	width: 100%;
+	height: 37px;
+}
+
+.regwrapper .form .input_field .custom_select select{
+	-webkit-appearance: none;
+	appearance: none;
+	border: 1px solid #d5dbd9;	
+	/* width: 100%; */
+	height: 100%;
+	padding: 8px 10px;
+	border-radius: 3px;
+	width: 75%;
+    outline: 1px;
+    border: 3px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.regwrapper .form .input_field .custom_select:before{
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border: 8px solid;
+	border-color: #d5dbd9 transparent transparent transparent;
+	pointer-events: none;
+}
+
+.regwrapper .form .input_field .input:focus,
+.regwrapper .form .input_field .textarea:focus,
+.regwrapper .form .input_field select:focus{
+	border: 1px solid #6f7171;
+}
+
+.regwrapper .form .input_field p{
+	margin-left: 15px;
+	font-size: 14px;
+	color: #757575;
+}
+
+.regwrapper .form .input_field .check{
+	width: 15px;
+	border: 15px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+
+.regwrapper .form .input_field .check input[type="checkbox"]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.regwrapper .form .input_field .check .checkmark{
+	width: 15px;
+	height: 15px;
+	border: 1px solid #6f7171;
+	display: block;
+	position: relative;
+	
+}
+
+.regwrapper .form .input_field .check .checkmark:before{
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 1px; 
+	width: 5px;
+	height: 2px;
+	border: 2px solid;
+	border-color: transparent transparent #fff #fff;
+ 	transform: rotate(-45deg);
+	display: none;
+} 
+
+.regwrapper .form .input_field .check input[type="checkbox"]:checked ~ .checkmark{
+	background: #6f7171;
+}
+
+.regwrapper .form .input_field .check input[type="checkbox"]:checked ~ .checkmark:before{
+	display: block;
+}
+.regwrapper .form .input_field .btn{
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 0;
+	background: #6f7171;
+	/* color: #fff; */
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+}
+
+.regwrapper .form .input_field:last-child{
+	margin-bottom: 0;
+}
+
+.regwrapper .form .input_field .btn:hover{
+	background: #516868;
+}
+
+@media (max-width: 420px){
+	.regwrapper .form .input_field{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.regwrapper .form .input_field label{
+		margin-bottom: 5px;
+	}
+	.regwrapper .form .input_field.terms{
+		flex-direction: row;
+	}
+	.regwrapper .form .input_field .input, .regwrapper .form .input_field .textarea {
+		width: 100%;
+}}

@@ -1,0 +1,72 @@
+/* 
+Hima Girishbhai Kansodariya  1001861845
+Heer Chirag Patel            1001965102
+Jay Ashok Patel              1001870971
+
+*/
+
+
+        
+      
+        
+        .contact
+        {
+            /* color: white; */
+            background-color: lightgrey;
+        }
+        
+        #contactus
+        {
+            display: flex;
+            align-items: center;
+        }
+  label {
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: blue;
+    font-size: pxtoem(16, 16);
+  }
+  /* input {
+    margin: 0 0 0.5em 0;
+    border: 1px solid grey;
+    padding: 6px 10px;
+    color: dark_grey;
+    font-size: pxtoem(16, 16);
+  } */
+  textarea {
+    border: 1px solid grey;
+    padding: 6px 10px;
+    width: 100%;
+    color: dark_grey;
+  }
+  /* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+} */
+#contactus
+{
+  opacity: 40%;
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+  
+  
+  
+}
+.formm
+{
+  text-align: center;
+}
+.left
+{
+  text-align: left;
+}
+
+.aboutusSection {
+  background-image: url('./contact.jpg' );
+  background-size: cover;
+}
+  

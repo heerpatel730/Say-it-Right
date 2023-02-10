@@ -1,0 +1,105 @@
+/* 
+Hima Girishbhai Kansodariya  1001861845
+Heer Chirag Patel            1001965102
+Jay Ashok Patel              1001870971
+
+*/
+
+th {padding: 4px 25px; height: 10px; width:auto}
+table {border-collapse: collapse; margin: 0 auto;}
+thead {background-color: #ffb07c;}
+tbody tr:nth-child(2n) { background-color: rgb(255, 214, 197);}
+.professorTable{ width: 80%; float: none;  text-align: center; padding: 30px 0;}
+.info {width: 100%; margin-top: 3%;}
+.infoBox {
+    width: 22%;
+    float: left;
+    padding: 10px;
+}
+.infoBoxContent{padding: 20px; border: 1px solid black;}
+
+.barcontainer {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px 5px 0 0;
+    width: 80%;
+    margin-top: 300px;
+    margin-left: 800px;
+    min-height: 25vw;
+    max-height: 50vw;
+    min-width: 35%;
+    max-width: 25%;
+    z-index: 1;
+  }
+  
+  .barcontainerheader {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #ffb07c;
+    border-bottom: 3px solid black;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0 black;
+    z-index: 0;
+  }
+  
+  .bar {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 6px 6px 0 0;
+    background: #ffb07c;
+    width: 10%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    box-shadow: 4px 0 8px #888;
+  }
+  
+  .barlabel {
+    position: absolute;
+    border-top: 2px solid black;
+    background: #888;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+  }
+  
+
+@media(max-width: 1190px){
+    .wrapper{max-width: 992px;}
+    th {padding: 4px 15px;}
+}
+
+
+@media (max-width: 992px){
+    .wrapper{max-width: 950px;}
+    .professorTable{ width: 100%;}
+    th {padding: 4px 25px;}
+    .infoBox {
+        width: 45%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 580px){
+   .wrapper{max-width: 360;}
+   th {padding: 4px 15px;}
+}
+
+@media(max-width:360px){
+    .wrapper{max-width: 340px;}
+    th {padding: 4px 5px;}
+    .infoBox {
+        width: 70%;
+        float: left;
+        padding: 10px;
+    }
+}

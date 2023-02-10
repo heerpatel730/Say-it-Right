@@ -1,0 +1,178 @@
+/* 
+Hima Girishbhai Kansodariya  1001861845
+Heer Chirag Patel            1001965102
+Jay Ashok Patel              1001870971
+
+*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Medium.woff2') format('woff2'),
+        url('./Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.studentbody {
+    margin: 0;
+    padding: 0;
+    line-height:1.8;
+    font-family: 'Roboto';
+    /* background:-webkit-linear-gradient(left, #324f64, #afaaaa); */
+    font-size: 14px;
+} 
+
+.studentwrapper {
+	max-width: 200px;
+    max-height: 500px;
+	width: 50%;
+	/* background: -webkit-linear-gradient(left, #324f64, #afaaaa); */
+	margin: 100px;
+    margin-left: 0px;
+
+}
+
+.clearfix:before,.clearfix:after {
+    content:'';
+    width:100%;
+    display:table;
+}
+
+/*.col333{
+    max-width: 33%;
+}*/
+
+
+
+
+
+
+.student-item{
+    background: lightgrey;
+    text-align: center;
+    padding: 15px;
+}
+
+.student-item :hover {
+    background-color:lightblue;
+}
+.grid-content{
+    padding: 0 0px;
+}
+.grid-image{
+    max-height: 180px;
+    max-width: 275px;
+    margin: 0 auto;
+}
+.studentdropbtn {
+    background-color: lightgrey;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .studentdropdown {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .studentdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .studentdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .studentdropdown-content a:hover {background-color: #ddd;}
+  
+  .studentdropdown:hover .studentdropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: lightblue;}
+
+
+
+
+.studentcontainer {
+  max-width: 500px;
+  padding: 10px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+.studentcontainer textarea {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  margin-right: 15px;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.studentcontainer textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.studentcontainer .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.studentcontainer .cancel {
+  background-color: red;
+}
+
+.studentcontainer .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+  
+@media(max-width: 1024px){
+    .studentwrapper{max-width: 992px;}
+}
+
+@media (max-width: 992px){
+    .studentwrapper{max-width: 768px;}
+    .student-item{width: 50%;}
+}
+
+@media (max-width: 768px){
+   .studentwrapper{max-width: 590px;}
+   .grid-image img{height: 140px; width: 250px;}
+   .grid-content{padding: 0 0px; line-height: 1.5;} 
+}
+
+@media(max-width: 576px){
+    .studentwrapper{max-width: 340px;}
+    .student-item{width: 100%;}
+    .grid-image img{height: 160px; width: 250px;}
+}
+
+@media(max-width: 411px){
+    .studentwrapper{max-width: 320px;}
+    .student-item{width: 100%;}
+    .grid-image img{height: 160px; width: 250px;}
+}

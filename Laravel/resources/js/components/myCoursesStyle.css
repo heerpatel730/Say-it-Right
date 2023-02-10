@@ -1,0 +1,96 @@
+/* 
+Hima Girishbhai Kansodariya  1001861845
+Heer Chirag Patel            1001965102
+Jay Ashok Patel              1001870971
+
+*/
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Medium.woff2') format('woff2'),
+        url('./Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.bodyy {
+    margin: 0;
+    padding: 0;
+    line-height:1.8;
+    font-family: 'Roboto';
+    background:-webkit-linear-gradient(left, #324f64, #afaaaa);
+    font-size: 14px;
+}
+
+.couwrapper {
+	max-width: 300px;
+    max-height: 500px;
+	width: 50%;
+	background: -webkit-linear-gradient(left, #324f64, #afaaaa);
+	margin: 100px  auto;
+    margin-left: 200px;
+    align-items: center;
+
+}
+
+.clearfix {
+    display:inline-block;
+     
+}
+.clearfix:before,.clearfix:after {
+    content:'';
+    width:100%;
+    display:table;
+}
+
+.col100 {
+    max-width: 100%;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+
+
+
+.aboutLeft{
+    width: 55%;float: left;
+    text-align: right;
+}
+.aboutRight{
+    width: 45%;
+    float: left;
+}
+.aboutRight p{
+    padding: 0px 25px;
+    margin: 0px;
+}
+.aboutContent{
+    background-color:#ededede3;
+    padding: 15px;
+}
+.course-item{
+    background: lightgrey;
+    text-align: center;
+    padding: 0px 0;
+}
+.course-grid{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 30px;
+}
+.course-item :hover {
+    background-color:lightblue;
+}
+.grid-content{
+    padding: 0 0px;
+}
+.grid-image{
+    max-height: 180px;
+    max-width: 275px;
+    margin: 0 auto;
+}

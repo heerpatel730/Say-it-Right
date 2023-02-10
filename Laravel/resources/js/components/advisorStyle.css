@@ -1,0 +1,35 @@
+/* 
+Hima Girishbhai Kansodariya  1001861845
+Heer Chirag Patel            1001965102
+Jay Ashok Patel              1001870971
+
+*/
+
+th {padding: 4px 25px; height: 10px; width:auto}
+table {border-collapse: collapse; margin: 0;}
+thead {background-color: #ffb07c;}
+tbody tr:nth-child(2n) { background-color: rgb(255, 214, 197);}
+.professorTable{ width: 80%; float: none;  text-align: center; padding: 30px 0;}
+
+
+@media(max-width: 1190px){
+    .wrapper{max-width: 992px;}
+    th {padding: 4px 15px;}
+}
+
+
+@media (max-width: 992px){
+    .wrapper{max-width: 950px;}
+    .professorTable{ width: 100%;}
+    th {padding: 4px 25px;}
+}
+
+@media (max-width: 580px){
+   .wrapper{max-width: 360;}
+   th {padding: 4px 15px;}
+}
+
+@media(max-width:360px){
+    .wrapper{max-width: 340px;}
+    th {padding: 4px 5px;}
+}
